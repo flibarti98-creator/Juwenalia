@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juwenalia Tarnów 2026 – Największe Święto Studentów</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Space+Mono:ital@0;1&display=swap" rel="stylesheet">
+
+  <!-- Arkusz stylów -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ========== CUSTOM CURSOR ========== -->
+<div class="cursor" id="cursor"></div>
+
+<!-- ========== NAV ========== -->
+<nav>
+  <a href="#hero" class="nav-logo">JUW&#8203;26</a>
+  <ul class="nav-links">
+    <li><a href="#countdown-section">Odliczanie</a></li>
+    <li><a href="#video-section">Wideo</a></li>
+    <li><a href="#programme">Program</a></li>
+    <li><a href="#location">Lokalizacja</a></li>
+    <li><a href="#cta-final">Bilety</a></li>
+  </ul>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="grid-overlay"></div>
+  <div class="particles" id="particles"></div>
+
+  <p class="hero-eyebrow">Tarnów · Maj 2026 · Święto Studentów</p>
+
+  <h1 class="hero-title glitch" data-text="JUWENALIA">
+    JUW<span class="yellow">E</span>N<span class="pink">A</span>LIA
+  </h1>
+  <div class="hero-title" style="font-size: clamp(3rem, 10vw, 9rem); color: rgba(255,255,255,0.15);">
+    TARNÓW 2026
+  </div>
+
+  <p class="hero-subtitle">Największe Święto Akademickie Małopolski Wschodniej</p>
+
+  <div class="hero-date-badge">
+    <span>🎓</span>
+    <span>15–18 MAJA 2026</span>
+    <span>🎓</span>
+  </div>
+
+  <div class="hero-cta">
+    <a href="#cta-final" class="btn-primary">Kup Bilet</a>
+    <a href="#programme" class="btn-secondary">Program Imprezy</a>
+  </div>
+
+  <div class="scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- ========== COUNTDOWN ========== -->
+<section id="countdown-section">
+  <p class="countdown-label">// Zostało do imprezy</p>
+  <div class="countdown-grid">
+    <div class="countdown-item">
+      <div class="countdown-number" id="cd-days">000</div>
+      <div class="countdown-unit">Dni</div>
+    </div>
+    <div class="countdown-sep">:</div>
+    <div class="countdown-item">
+      <div class="countdown-number" id="cd-hours">00</div>
+      <div class="countdown-unit">Godzin</div>
+    </div>
+    <div class="countdown-sep">:</div>
+    <div class="countdown-item">
+      <div class="countdown-number" id="cd-minutes">00</div>
+      <div class="countdown-unit">Minut</div>
+    </div>
+    <div class="countdown-sep">:</div>
+    <div class="countdown-item">
+      <div class="countdown-number" id="cd-seconds">00</div>
+      <div class="countdown-unit">Sekund</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== MARQUEE ========== -->
+<div class="marquee-wrap">
+  <div class="marquee-inner">
+    <span>🎵 Juwenalia Tarnów 2026</span>
+    <span>★ Cztery Dni Szaleństwa</span>
+    <span>🎤 Koncerty Na Żywo</span>
+    <span>🏟️ Miejski Rynek</span>
+    <span>🎓 Marzec Studentów</span>
+    <span>🎵 Juwenalia Tarnów 2026</span>
+    <span>★ Cztery Dni Szaleństwa</span>
+    <span>🎤 Koncerty Na Żywo</span>
+    <span>🏟️ Miejski Rynek</span>
+    <span>🎓 Marzec Studentów</span>
+    <span>🎵 Juwenalia Tarnów 2026</span>
+    <span>★ Cztery Dni Szaleństwa</span>
+    <span>🎤 Koncerty Na Żywo</span>
+  </div>
+</div>
+
+<!-- ========== VIDEO ========== -->
+<section id="video-section">
+  <span class="section-tag">// Oficjalny Zwiastun</span>
+  <h2 class="section-title">POCZUJ<br><span style="color:var(--electric-pink)">KLIMAT</span></h2>
+
+  <div class="video-container">
+    <!--
+      ===========================================
+      TUTAJ WSTAW WIDEO:
+
+      Opcja A – plik lokalny (mp4):
+        <video controls autoplay muted loop>
+          <source src="twoj-film.mp4" type="video/mp4">
+        </video>
+
+      Opcja B – YouTube embed:
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1"
+                allowfullscreen allow="autoplay"></iframe>
+
+      Opcja C – Vimeo embed:
+        <iframe src="https://player.vimeo.com/video/VIDEO_ID?autoplay=1&muted=1"
+                allowfullscreen allow="autoplay"></iframe>
+
+      Usuń blok .video-placeholder po wstawieniu wideo.
+      ===========================================
+    -->
+    <div class="video-placeholder" id="video-placeholder">
+      <div class="play-ring">
+        <div class="play-triangle"></div>
+      </div>
+      <p class="video-note">// WIDEO ZOSTANIE DODANE WKRÓTCE</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== INFO CARDS ========== -->
+<section id="info-section">
+  <div class="info-inner">
+    <div class="info-header">
+      <span class="section-tag">// Dlaczego tu być?</span>
+      <h2 class="section-title">4 DNI,<br><span style="color:var(--neon-yellow)">NIESKOŃCZONE</span><br>WSPOMNIENIA</h2>
+    </div>
+    <div class="cards-grid">
+      <div class="info-card">
+        <span class="card-icon">🎤</span>
+        <div class="card-title">Gwiazdy Sceny</div>
+        <p class="card-body">Największe nazwiska polskiej muzyki i niespodzianki, które zapamiętasz na lata. Scena główna i strefa kameralna.</p>
+      </div>
+      <div class="info-card">
+        <span class="card-icon">🎨</span>
+        <div class="card-title">Kultura & Sztuka</div>
+        <p class="card-body">Wystawy, performance, street art i instalacje artystyczne rozrzucone po całym centrum Tarnowa.</p>
+      </div>
+      <div class="info-card">
+        <span class="card-icon">🍺</span>
+        <div class="card-title">Food & Drink Zone</div>
+        <p class="card-body">Najlepsze lokalne browary, food trucki z kuchniami świata i strefa relaksu dla prawdziwych smakoszy.</p>
+      </div>
+      <div class="info-card">
+        <span class="card-icon">🏃</span>
+        <div class="card-title">Sport & Fun</div>
+        <p class="card-body">Turnieje sportowe między uczelniami, strefy gier i aktywności, które sprawią, że zapomnisz o sesjach.</p>
+      </div>
+      <div class="info-card">
+        <span class="card-icon">🌙</span>
+        <div class="card-title">Nocne Życie</div>
+        <p class="card-body">After party do białego rana. Najlepsi DJe, klimatyczne kluby i student nights w całym mieście.</p>
+      </div>
+      <div class="info-card">
+        <span class="card-icon">🎓</span>
+        <div class="card-title">Studencki Rynek</div>
+        <p class="card-body">Targi, warsztaty, networking i inicjatywy studenckich kół naukowych z całej Małopolski.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROGRAMME ========== -->
+<section id="programme">
+  <div class="prog-inner">
+    <div class="prog-header">
+      <span class="section-tag">// Harmonogram</span>
+      <h2 class="section-title">PROGRAM<br><span style="color:var(--electric-pink)">IMPREZ</span></h2>
+    </div>
+
+    <div class="day-block">
+      <div class="day-label">PIĄTEK — 15 MAJA</div>
+      <div class="event-row"><span class="event-time">17:00</span><span class="event-name">Uroczyste Otwarcie Juwenaliów</span><span class="event-tag">Ceremonia</span></div>
+      <div class="event-row"><span class="event-time">19:00</span><span class="event-name">Koncert Otwarcia — Artysta TBA</span><span class="event-tag headliner">Headliner</span></div>
+      <div class="event-row"><span class="event-time">22:00</span><span class="event-name">DJ Night — Strefa Elektryczna</span><span class="event-tag">Party</span></div>
+    </div>
+
+    <div class="day-block">
+      <div class="day-label">SOBOTA — 16 MAJA</div>
+      <div class="event-row"><span class="event-time">12:00</span><span class="event-name">Turnieje Sportowe Uczelni</span><span class="event-tag">Sport</span></div>
+      <div class="event-row"><span class="event-time">15:00</span><span class="event-name">Jarmark Studencki & Food Festival</span><span class="event-tag">Kultura</span></div>
+      <div class="event-row"><span class="event-time">19:30</span><span class="event-name">Główny Koncert — Artysta TBA</span><span class="event-tag headliner">Headliner</span></div>
+      <div class="event-row"><span class="event-time">23:00</span><span class="event-name">After Party — Club Central</span><span class="event-tag">Party</span></div>
+    </div>
+
+    <div class="day-block">
+      <div class="day-label">NIEDZIELA — 17 MAJA</div>
+      <div class="event-row"><span class="event-time">13:00</span><span class="event-name">Strefa Sztuki & Instalacje</span><span class="event-tag">Sztuka</span></div>
+      <div class="event-row"><span class="event-time">17:00</span><span class="event-name">Battle of Bands — Lokalne Zespoły</span><span class="event-tag">Muzyka</span></div>
+      <div class="event-row"><span class="event-time">20:00</span><span class="event-name">Gwiazda Niespodziana — Artysta TBA</span><span class="event-tag headliner">Headliner</span></div>
+    </div>
+
+    <div class="day-block">
+      <div class="day-label">PONIEDZIAŁEK — 18 MAJA</div>
+      <div class="event-row"><span class="event-time">14:00</span><span class="event-name">Finał Rozgrywek Sportowych</span><span class="event-tag">Sport</span></div>
+      <div class="event-row"><span class="event-time">18:00</span><span class="event-name">Koncert Zamknięcia & Pokaz Laserów</span><span class="event-tag headliner">Finał</span></div>
+      <div class="event-row"><span class="event-time">21:00</span><span class="event-name">Wielkie Pożegnanie — Fajerwerki</span><span class="event-tag">Ceremonia</span></div>
+    </div>
+
+    <p style="text-align:center; margin-top:2rem; font-family:'Space Mono',monospace; font-size:0.75rem; color:rgba(255,255,255,0.3); letter-spacing:0.1em;">
+      // Program może ulec zmianie. Śledź nasze kanały po aktualizacje.
+    </p>
+  </div>
+</section>
+
+<!-- ========== GALLERY MOSAIC ========== -->
+<section id="gallery">
+  <div class="gallery-inner">
+    <div class="gallery-header">
+      <span class="section-tag">// Galeria</span>
+      <h2 class="section-title">POPRZEDNIE<br><span style="color:var(--cyan)">EDYCJE</span></h2>
+    </div>
+    <div class="mosaic">
+      <div class="mosaic-item big m1"><div class="mosaic-label">SCENA GŁÓWNA<br>2025</div></div>
+      <div class="mosaic-item m2"><div class="mosaic-label">TŁUM</div></div>
+      <div class="mosaic-item m3"><div class="mosaic-label">FAJERWERKI</div></div>
+      <div class="mosaic-item m4"><div class="mosaic-label">FOOD ZONE</div></div>
+      <div class="mosaic-item m5"><div class="mosaic-label">KONCERT</div></div>
+      <div class="mosaic-item m6"><div class="mosaic-label">AFTERPARTY</div></div>
+    </div>
+    <p style="text-align:center; margin-top:1.5rem; font-family:'Space Mono',monospace; font-size:0.7rem; color:rgba(255,255,255,0.25); letter-spacing:0.1em;">
+      // Zdjęcia zostaną dodane przez organizatorów
+    </p>
+  </div>
+</section>
+
+<!-- ========== LOCATION ========== -->
+<section id="location">
+  <div class="location-inner">
+    <span class="section-tag">// Gdzie jesteśmy</span>
+    <h2 class="section-title">ZNAJDŹ<br><span style="color:var(--neon-yellow)">NAS</span></h2>
+
+    <div class="location-map-placeholder">
+      <span>[ MAPA — RYNEK W TARNOWIE ]</span>
+    </div>
+
+    <div class="location-address">
+      <strong>Rynek w Tarnowie</strong>
+      Tarnów, Małopolska<br>
+      33-100 Polska
+    </div>
+
+    <div style="margin-top:2.5rem; display:flex; gap:1rem; flex-wrap:wrap; justify-content:center;">
+      <a href="https://maps.google.com/?q=Rynek+Tarnow" target="_blank" class="btn-primary" style="font-size:1.1rem; padding:0.8rem 2rem;">📍 Google Maps</a>
+      <a href="#" class="btn-secondary" style="font-size:1.1rem; padding:0.8rem 2rem;">🚌 Jak dojechać</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FINAL CTA ========== -->
+<section id="cta-final">
+  <h2 class="cta-title">
+    <span class="outline">BĄDŹ</span><br>
+    <span style="color:var(--neon-yellow)">TAM!</span>
+  </h2>
+  <p style="font-size:1.4rem; font-weight:300; color:rgba(255,255,255,0.7); margin-bottom:3rem; max-width:500px; margin-left:auto; margin-right:auto;">
+    Nie przegap największego studenckiego events roku. Bilety w ograniczonej liczbie!
+  </p>
+  <div style="display:flex; gap:1.2rem; flex-wrap:wrap; justify-content:center;">
+    <a href="#" class="btn-primary" style="font-size:1.8rem; padding:1.2rem 4rem;">KUP BILET TERAZ</a>
+  </div>
+  <p style="margin-top:2rem; font-family:'Space Mono',monospace; font-size:0.7rem; color:rgba(255,255,255,0.3); letter-spacing:0.15em;">
+    CENY BILETÓW WKRÓTCE · SPRAWDŹ SOCIAL MEDIA
+  </p>
+
+  <div class="social-links" style="margin-top:4rem;">
+    <a href="#" class="social-link">INSTAGRAM</a>
+    <a href="#" class="social-link">FACEBOOK</a>
+    <a href="#" class="social-link">TIKTOK</a>
+    <a href="#" class="social-link">TWITTER / X</a>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+  <div class="footer-logo">JUWENALIA TARNÓW '26</div>
+  <ul class="footer-links">
+    <li><a href="#">Regulamin</a></li>
+    <li><a href="#">Prywatność</a></li>
+    <li><a href="#">Kontakt</a></li>
+    <li><a href="#">Organizator</a></li>
+  </ul>
+  <div class="footer-copy">
+    © 2026 Juwenalia Tarnów<br>
+    Wszelkie prawa zastrzeżone
+  </div>
+</footer>
+
+<!-- Skrypt ładowany na końcu body -->
+<script src="script.js"></script>
+
+</body>
+</html>
